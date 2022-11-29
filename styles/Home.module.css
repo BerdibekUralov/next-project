@@ -1,0 +1,75 @@
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(142, 69%, 61%);
+}
+
+.logo:hover{
+  color: hsl(142, 57%, 53%);
+}
+
+.navList{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLink{
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(142, 69%, 61%);
+}
+
+.navLink:hover{
+  color: hsl(142, 57%, 53%);
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+  width: 25%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px rgba(0,0,0,.5);
+}
+
+.cardImage{
+  width: 250px;
+  height: auto;
+}
+
+.cardTitle{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(142, 57%, 53%);
+  text-align: center;
+}
+
+.cardText{
+  text-align: justify;
+}
+
+.cardBtn{
+  color: hsl(230, 57%, 53%);
+}
